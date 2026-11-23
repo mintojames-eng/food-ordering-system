@@ -1,0 +1,15 @@
+{
+  "name": "food-ordering-system",
+  "version": "1.0.0",
+  "description": "Full Stack Swiggy & Zomato style Food Ordering System with React, Node.js/Express, and MongoDB/SQLite",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev:backend": "node --watch backend/server.js",
+    "dev:frontend": "cd frontend && npm.cmd run dev",
+    "build": "cd frontend && npm.cmd run build",
+    "test": "cd backend && node test_units.js"
+  },
+  "keywords": ["food-ordering", "react", "express", "nodejs", "mongodb", "sqlite", "swiggy", "zomato"],
+  "author": "Student Team Project",
+  "license": "ISC"
+}
